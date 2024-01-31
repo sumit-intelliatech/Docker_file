@@ -11,5 +11,6 @@
 # ---->docker run -it --name test -p 8080:8080 --network=bootApp -e MYSQL_HOST=mysqldb -e MYSQL_PORT=3306 dockertest
 #MYSQL
 # --->docker run -d --name mysqldb -p 3307:3306 --network=bootApp -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=dockerdb mysql
-
+#How to run the docker compose file
+# ------>docker compose up -d
 
